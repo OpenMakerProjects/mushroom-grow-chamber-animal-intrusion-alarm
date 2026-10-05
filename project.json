@@ -1,0 +1,21 @@
+{
+  "id": 168,
+  "title": "Mushroom Grow Chamber Animal Intrusion Alarm",
+  "repository_slug": "mushroom-grow-chamber-animal-intrusion-alarm",
+  "category": "Smart Agriculture",
+  "platform": "LoRa + Arduino",
+  "platform_family": "arduino",
+  "difficulty": "Advanced",
+  "estimated_hours": 44,
+  "connectivity": "LoRa",
+  "components": [
+    "EC sensor",
+    "LoRa module",
+    "SHT31"
+  ],
+  "scope": "Build a smart agriculture prototype that uses EC sensor, LoRa module, SHT31 to detect and report animal movement. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Animal Intrusion Alarm demonstration with repeatable test steps",
+  "mode": "threshold_alert",
+  "entrypoint": "firmware/mushroom-grow-chamber-animal-intrusion-alarm/mushroom-grow-chamber-animal-intrusion-alarm.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
